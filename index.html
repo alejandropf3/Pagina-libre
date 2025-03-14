@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pagina personal</title>
+    <meta name="description" content="Esta es una pagina personal en el que se describen algunas cosas sobre mi.">
+    
 </head>
 <body>
     <header> 
@@ -16,6 +18,7 @@
         </nav>
         <hr>
     </header>
+    <main>
     <section>
         <center>
         <h1>Bienvenido a mi pagina personal</h1>
@@ -39,7 +42,65 @@
         <button type="submit">Enviar</button>
         </center>
     </form>
-
     </section>
+<br>
+    <section>
+    <center>
+    <form action="" method="get">
+        <table border="2">
+            <thead>
+                <tr>
+                    <th colspan="6">Tabla de pedidos</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>pan tajado</td>
+                    <td>jamon</td>
+                    <td>queso</td>
+                    <td>tomate</td>
+                    <td>lechuga</td>
+                </tr>
+
+                <tr>
+                    <td>$4000</td>
+                    <td>$7000</td>
+                    <td>$9500</td>
+                    <td>$300</td>
+                    <td>$3500</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="pan_tajado">Pedir</label>
+                        <input type="checkbox" name="pan_tajado" id="pan_tajado">
+                    </td>
+                    <td>
+                        <label for="jamon">Pedir</label>
+                        <input type="checkbox" name="jamon" id="jamon">
+                    </td>
+                    <td>
+                        <label for="queso">Pedir</label>
+                        <input type="checkbox" name="queso" id="queso">
+                    </td>
+                    <td><label for="tomate">Pedir</label>
+                        <input type="checkbox" name="tomate" id="tomate"></td>
+                    <td>
+                        <label for="lechuga">Pedir</label>
+                        <input type="checkbox" name="lechuga" id="lechuga">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <br>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+    </center>
+    </section>
+
+</main>
 </body>
 </html>
